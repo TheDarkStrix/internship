@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --blue: #5695cd;
+  --blueLight: #aacae6;
+  --white: white;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.page {
+  width: 800px;
+  height: 100%;
+  padding: 2.6em;
+  box-shadow: 0 0.5mm 2mm rgb(0 0 0 / 30%);
+}
+
+.name {
+  font-size: 3.2em;
+  font-weight: 600;
+  margin-bottom: 0.4em;
+}
+
+.pdetails {
+  margin-bottom: 10px;
+}
+
+.iconBlue {
+  color: var(--blue);
+}
+
+.details {
+  margin-left: 1em;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+}
+.left {
+  width: 60%;
+}
+.right {
+  width: 40%;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  margin: 1em 0;
+}
+
+.outerBlue {
+  width: 2em;
+  height: 2em;
+  background-color: var(--blue);
+  border: 3px solid var(--blueLight);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-right: 0.6em;
+}
+
+.subHeading {
+  font-size: 1.4em;
+  font-weight: 500;
+}
